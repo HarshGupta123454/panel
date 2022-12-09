@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Dashboard from './Dashboard';
+import {BrowserRouter,Route,Routes} from "react-router-dom"
+import Products from './Products';
+import Finance from './Finance';
+import It from './It';
+import Legal from './Legal';
+import Marketing from './Marketing';
+import Sales from './Sales';
+import Navigation from './Components/Navigation';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+
+   {/* <Dashboard/> */}
+   {/* <Navigation/> */}
+  
+   <Routes>
+    <Route path='/' element={<Dashboard/>}/>
+    <Route path="/product" element={<Products/>}/>
+    <Route path="/marketing" element={<Marketing/>}/>
+    <Route path='/sales' element={<Sales/>}/>
+    <Route path="/finance" element={<Finance/>}/>
+    <Route path="/it" element={<It/>}/>
+    <Route path="/legal" element={<Legal/>}/>
+   </Routes>
+   
+   </>
   );
 }
 
