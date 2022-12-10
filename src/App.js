@@ -6,7 +6,6 @@ import It from './It';
 import Legal from './Legal';
 import Marketing from './Marketing';
 import Sales from './Sales';
-import Navigation from './Components/Navigation';
 function App() {
 
   return (

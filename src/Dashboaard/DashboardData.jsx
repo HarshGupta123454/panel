@@ -1,15 +1,28 @@
 import React from 'react'
 import "./DashboardData.css"
-
+import {useNavigate} from "react-router-dom"
 export default function DashboardData() {
+    const navigate=useNavigate()
+    const click=()=>{
+        navigate("/product");
+    }
+    const click1=()=>{
+        navigate("/marketing");
+    }
+    const click2=()=>{
+        navigate("/sales");
+    }
+    const click3=()=>{
+        navigate("/delivery");
+    }
     return (
         <>
             <div className='container'>
                 <div className="grid-container">
                     <div className="item2 i">
                         <h3>product</h3>
-                        <div className="marketing-detail">
-                            <div className='marketing-detail-left'>
+                        <div className="marketing-detail" onClick={click}>
+                            <div className='marketing-detail-left' >
                                 <h4>training</h4>
                                 <p>Applicants: <span>22</span></p>
                                 <p>Shortlisted: <span>22</span></p>
@@ -29,7 +42,7 @@ export default function DashboardData() {
                     </div>
                     <div className="item3 i">
                         <h3>marketing</h3>
-                        <div className="marketing-detail">
+                        <div className="marketing-detail" onClick={click1}>
                             <div className='marketing-detail-left'>
                                 <h4>B2B</h4>
                                 <p>Reach <span>22</span></p>
@@ -50,7 +63,7 @@ export default function DashboardData() {
                     </div>
                     <div className="item4 i">
                         <h3>delivery</h3>
-                        <div className="marketing-detail">
+                        <div className="marketing-detail" onClick={click3}>
                             <div className='delivery'>
                                 <p>Attendance</p>
                                 <p>Renewal Rate</p>
@@ -76,7 +89,7 @@ export default function DashboardData() {
 
                     </div>
                     <div className="item5 i"><h3>sales</h3>
-                    <div className="marketing-detail">
+                    <div className="marketing-detail" onClick={click2}>
                             <div className='marketing-detail-left sale'>
                                 <h4>B2B</h4>
                                 <p>Conversions</p>
@@ -99,7 +112,7 @@ export default function DashboardData() {
                     <div className="item1">
                         <div>
                             <h3>it</h3>
-                            <div className="marketing-detail-2">
+                            <div className="marketing-detail-2" >
                                 <p>Prog <span>22</span></p>
                                 <p>Task<span>22</span></p>
                                 <p>Bugs<span>22</span></p>

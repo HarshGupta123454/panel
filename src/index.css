@@ -8,3 +8,34 @@
   margin: 0 auto;
   margin-top: 2rem;
 }
+.modal{
+  display: flex;
+  height: 30vh;
+  width: 40vw;
+  flex-direction: column;
+  background-color: #1E1E1E;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.modal>h2{
+  color: #fff;
+  margin: 0.4rem 0;
+}
+.modal table{
+    width: 100%;
+}
+.modal th{
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.modal td{
+  color: #fff;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: 100;
+  font-size: 14px;
+}
+.modal button{
+  width: 25%;
+}
