@@ -1,6 +1,7 @@
 import React from 'react'
 import "./dynamicdata.css"
 import { useModal } from 'react-hooks-use-modal';
+import Chart from './Chart';
 export default function Dynamicdata() {
   const [Modal, open, close, isOpen] = useModal('root', {
     preventScroll: true,
@@ -19,6 +20,8 @@ export default function Dynamicdata() {
           <div onClick={open}><p>Applicant 22</p><span>@</span></div>
           <div onClick={open}><p>Applicant 22</p><span>@</span></div>
 
+          <Chart/>
+
 
         </div>
         <div className="right">
@@ -28,6 +31,7 @@ export default function Dynamicdata() {
           <div onClick={open}><p>Applicant 22</p><span>@</span></div>
           <div onClick={open}><p>Applicant 22</p><span>@</span></div>
           <div onClick={open}><p>Applicant 22</p><span>@</span></div>
+          <Chart/>
         </div>
       </div>
       <Modal>
