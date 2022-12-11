@@ -1,15 +1,8 @@
 import React from 'react'
 import "./dynamicdata.css"
-import { useModal } from 'react-hooks-use-modal';
 import Chart from './Chart';
 import Drop from './Drop';
 export default function Dynamicdata() {
-  const [Modal, open, close, isOpen] = useModal('root', {
-    preventScroll: true,
-    focusTrapOptions: {
-        clickOutsideDeactivates: true,
-    },
-});
   return (
     <>
       <div className="containers">
