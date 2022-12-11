@@ -1,5 +1,3 @@
-import React ,{useState} from 'react'
-
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -24,7 +22,7 @@ import {
   );
 
 export default function Chart() {
-    const[data,setdata]=useState({
+    const data={
         labels : ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
         datasets:[
             {
@@ -35,7 +33,7 @@ export default function Chart() {
                 fill:true,
             }
         ]
-    })
+    }
   return (
     <>
     <Line data={data}>hello</Line>

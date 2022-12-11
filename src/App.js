@@ -1,5 +1,5 @@
 import Dashboard from './Dashboard';
-import {BrowserRouter,Route,Routes} from "react-router-dom"
+import {Route,Routes} from "react-router-dom"
 import Products from './Products';
 import Finance from './Finance';
 import It from './It';
