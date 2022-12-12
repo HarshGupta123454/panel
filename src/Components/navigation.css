@@ -13,12 +13,13 @@
     color: #000000;
     opacity: 0.2;
     text-decoration: none;
+    text-transform: uppercase;
     
 
 }
 
 .active{
-    font-family: 'Inter';
+    text-transform: uppercase;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

@@ -13,6 +13,8 @@ export default function Navigation() {
             <div><NavLink className="link" to="/it"><p>it</p></NavLink></div>
             <div><NavLink className="link" to="/legal"><p>legal</p></NavLink></div>
             <div><NavLink className="link" to="/finance"><p>finance</p></NavLink></div>
+            <div><NavLink className="link" to="/hr"><p>hr</p></NavLink></div>
+            <div><NavLink className="link" to="/delivery"><p>delivery</p></NavLink></div>
         </div>
     </div>
 

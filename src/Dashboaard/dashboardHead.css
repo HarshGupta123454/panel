@@ -4,7 +4,7 @@
 }
 
 .dashboard-heading {
-    margin-top: 4rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,9 +26,8 @@ input {
     height: 2rem;
 }
 
-span {
+.dashboard-inputs>span{
     margin: 0 1rem;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;

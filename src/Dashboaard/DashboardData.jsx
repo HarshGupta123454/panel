@@ -15,6 +15,18 @@ export default function DashboardData() {
     const click3=()=>{
         navigate("/delivery");
     }
+    const it=()=>{
+        navigate("/it")
+    }
+    const hr=()=>{
+        navigate("/hr")
+    }
+    const finance=()=>{
+        navigate("/finance")
+    }
+    const legal=()=>{
+        navigate("/legal")
+    }
     return (
         <>
             <div className='container'>
@@ -25,13 +37,13 @@ export default function DashboardData() {
                             <div className='marketing-detail-left' >
                                 <h4>training</h4>
                                 <p>Applicants: <span>22</span></p>
-                                <p>Shortlisted: <span>22</span></p>
+                                <p>Shortlisted: <span>22</span><span>{}</span></p>
                                 <p>Onboarded: <span>22</span></p>
-                                <p>Requirements: <span>22</span></p>
+                                <p>Requirements: <span>22/22</span></p>
                                 <p>Onboard Quality: <span>22</span></p>
                             </div>
                             <div>
-                                <h4>training</h4>
+                                <h4>cources</h4>
                                 <p>Active Cources:<span>22</span></p>
                                 <p>Total Cousces: <span>22</span></p>
                                 <p>New Cources: <span>22</span></p>
@@ -45,9 +57,9 @@ export default function DashboardData() {
                         <div className="marketing-detail" onClick={click1}>
                             <div className='marketing-detail-left'>
                                 <h4>B2B</h4>
-                                <p>Reach <span>22</span></p>
-                                <p>Leads <span>22</span></p>
-                                <p>Channels</p>
+                                <p>Reach: <span>22</span></p>
+                                <p>Leads: <span>22</span></p>
+                                <p>Channels: <span>22</span></p>
                             </div>
                             <div>
                                 <h4>B2C</h4>
@@ -65,23 +77,23 @@ export default function DashboardData() {
                         <h3>delivery</h3>
                         <div className="marketing-detail" onClick={click3}>
                             <div className='delivery'>
-                                <p>Attendance</p>
-                                <p>Renewal Rate</p>
-                                <p>D.A.U</p>
-                                <p>NPS</p>
-                                <p>Class Quality</p>
+                                <p>Attendance: <span>22</span></p>
+                                <p>Renewal Rate: <span>22</span></p>
+                                <p>D.A.U: <span>22</span></p>
+                                <p>NPS: <span>22</span></p>
+                                <p>Class Quality: <span>22</span></p>
                             </div>
                             <div className='delivery'>
-                                <p>Avg PAy</p>
-                                <p>Avg Level</p>
-                                <p>Referrals</p>
-                                <p>Refunds</p>
-                                <p>Supp</p>
+                                <p>Avg PAy: <span>22</span></p>
+                                <p>Avg Level: <span>22</span></p>
+                                <p>Referrals: <span>22</span></p>
+                                <p>Refunds: <span>22</span></p>
+                                <p>Supp: <span>22</span></p>
                             </div>
                             <div className='delivery'>
-                                <p>School sat</p>
-                                <p>School Reneval</p>
-                                <p>Project Q</p>
+                                <p>School sat: <span>22</span></p>
+                                <p>School Reneval: <span>22</span></p>
+                                <p>Project Q: <span>22</span></p>
                                 <p></p>
                                 <p></p>
                             </div>
@@ -92,19 +104,19 @@ export default function DashboardData() {
                     <div className="marketing-detail" onClick={click2}>
                             <div className='marketing-detail-left sale'>
                                 <h4>B2B</h4>
-                                <p>Conversions</p>
-                                <p>C.R</p>
-                                <p>Revenue</p>
-                                <p>No of Students</p>
-                                <p>No of Schools</p>
+                                <p>Conversions: <span>22</span></p>
+                                <p>C.R: <span>22</span></p>
+                                <p>Revenue: <span>22</span></p>
+                                <p>No of Students: <span>22</span></p>
+                                <p>No of Schools: <span>22</span></p>
                             </div>
                             <div className='sale'>
                                 <h4>B2C</h4>
-                                <p>Conversions</p>
-                                <p>C.R</p>
-                                <p>Revenue</p>
-                                <p>No of Students</p>
-                                <p>No of Schools</p>
+                                <p>Conversions: <span>22</span></p>
+                                <p>C.R: <span>22</span></p>
+                                <p>Revenue: <span>22</span></p>
+                                <p>No of Students: <span>22</span></p>
+                                <p>No of Schools: <span>22</span></p>
 
                             </div>
                         </div>
@@ -112,35 +124,36 @@ export default function DashboardData() {
                     <div className="item1">
                         <div>
                             <h3>it</h3>
-                            <div className="marketing-detail-2" >
-                                <p>Prog <span>22</span></p>
-                                <p>Task<span>22</span></p>
-                                <p>Bugs<span>22</span></p>
+                            <div className="marketing-detail-2" onClick={it}>
+                                <p>Prog: <span>22</span></p>
+                                <p>Task: <span>22</span></p>
+                                <p>Bugs: <span>22</span></p>
                             </div>
                         </div>
                         <br />
                         <div>
                             <h3>hr</h3>
-                            <div className="marketing-detail-2">
-                                <p>Prog <span>22</span></p>
-                                <p>Task<span>22</span></p>
-                                <p>Bugs<span>22</span></p>
+                            <div className="marketing-detail-2" onClick={hr}>
+                                <p>ENPS: <span>22</span></p>
+                                <p>EFF: <span>22</span></p>
+                                <p>PREF: <span>22</span></p>
                             </div>
                         </div>
                         <br />
                         <div>
                             <h3>Finance</h3>
-                            <div className="marketing-detail-2">
-                                <p>Prog <span>22</span></p>
-                                <p>Task<span>22</span></p>
-                                <p>Bugs<span>22</span></p>
+                            <div className="marketing-detail-2" onClick={finance}>
+                                <p>Rev: <span>22</span></p>
+                                <p>Exp: <span>22</span></p>
+                                <p>P/L: <span>22</span></p>
+                                <p>F.R. <span>22</span></p>
                             </div>
                         </div>
                         <br />
                         <div>
-                            <h3>Finance</h3>
-                            <div className="marketing-detail-2">
-                                <p>Task <span>22</span></p>
+                            <h3>legal</h3>
+                            <div className="marketing-detail-2" onClick={legal}>
+                                <p>Task: <span>22</span></p>
                                 
                             </div>
                         </div>

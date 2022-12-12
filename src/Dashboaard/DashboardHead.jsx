@@ -9,7 +9,7 @@ export default function DashboardHead() {
                 <div className='dashboard-inputs'>
                     <span>From  </span><input type="date" name="" />
                 
-                    <span>To</span><input type="date" name="" />
+                    <span className='spans'>To</span><input type="date" name="" />
                 </div>
             </div>
             <div className='dashboard-last-div'>
