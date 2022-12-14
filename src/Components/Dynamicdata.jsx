@@ -21,7 +21,7 @@ export default function Dynamicdata({data1,data2,name}) {
         </div>
         <div className="right">
           <h3 className='heading'>{name.name2}</h3>
-          <div style={{minHeight:"30vh"}}>
+          <div style={{minHeight:"31vh"}}>
           {data2?.map((ele)=>{
             return(
               <Drop heading={ele.val}/>
