@@ -6,13 +6,13 @@ export default function DashboardData() {
     const click=()=>{
         navigate("/product");
     }
-    const click1=()=>{
+    const marketing=()=>{
         navigate("/marketing");
     }
-    const click2=()=>{
+    const sales=()=>{
         navigate("/sales");
     }
-    const click3=()=>{
+    const delivery=()=>{
         navigate("/delivery");
     }
     const it=()=>{
@@ -33,7 +33,7 @@ export default function DashboardData() {
                 <div className="grid-container">
                     <div className="item2 i">
                         <h3>product</h3>
-                        <div className="marketing-detail" onClick={click}>
+                        <div className="marketing-detail" onClick={marketing}>
                             <div className='marketing-detail-left' >
                                 <h4>training</h4>
                                 <p>Applicants: <span>22</span></p>
@@ -75,7 +75,7 @@ export default function DashboardData() {
                     </div>
                     <div className="item4 i">
                         <h3>delivery</h3>
-                        <div className="marketing-detail" onClick={click3}>
+                        <div className="marketing-detail" onClick={delivery}>
                             <div className='delivery'>
                                 <p>Attendance: <span>22</span></p>
                                 <p>Renewal Rate: <span>22</span></p>
@@ -101,7 +101,7 @@ export default function DashboardData() {
 
                     </div>
                     <div className="item5 i"><h3>sales</h3>
-                    <div className="marketing-detail" onClick={click2}>
+                    <div className="marketing-detail" onClick={sales}>
                             <div className='marketing-detail-left sale'>
                                 <h4>B2B</h4>
                                 <p>Conversions: <span>22</span></p>
