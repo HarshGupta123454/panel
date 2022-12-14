@@ -29,7 +29,7 @@ export default function Drop(props) {
       <Card className="card">
       
       <CardActions disableSpacing>
-      <Typography>
+      <Typography className='typography'>
         <h3 className='card-heading'>{props.heading}</h3>
        </Typography>
         <ExpandMore
