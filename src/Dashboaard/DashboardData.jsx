@@ -63,10 +63,10 @@ export default function DashboardData() {
                             </div>
                             <div>
                                 <h4>B2C</h4>
-                                <p>Followers <span>22</span></p>
-                                <p>Reach <span>22</span></p>
-                                <p>Leads <span>22</span></p>
-                                <p>Channels</p>
+                                <p>Followers: <span>22</span></p>
+                                <p>Reach: <span>22</span></p>
+                                <p>Leads: <span>22</span></p>
+                                <p>Channels:<span>22</span></p>
 
                             </div>
                         </div>
@@ -107,8 +107,8 @@ export default function DashboardData() {
                                 <p>Conversions: <span>22</span></p>
                                 <p>C.R: <span>22</span></p>
                                 <p>Revenue: <span>22</span></p>
-                                <p>No of Students: <span>22</span></p>
                                 <p>No of Schools: <span>22</span></p>
+                                <p>No of Students: <span>22</span></p>
                             </div>
                             <div className='sale'>
                                 <h4>B2C</h4>
@@ -116,7 +116,7 @@ export default function DashboardData() {
                                 <p>C.R: <span>22</span></p>
                                 <p>Revenue: <span>22</span></p>
                                 <p>No of Students: <span>22</span></p>
-                                <p>No of Schools: <span>22</span></p>
+                                <p>New Students: <span>22</span></p>
 
                             </div>
                         </div>
@@ -153,7 +153,7 @@ export default function DashboardData() {
                         <div>
                             <h3>legal</h3>
                             <div className="marketing-detail-2" onClick={legal}>
-                                <p>Task: <span>22</span></p>
+                                <p>Tasks: <span>22</span></p>
                                 
                             </div>
                         </div>

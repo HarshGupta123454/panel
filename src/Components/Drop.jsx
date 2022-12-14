@@ -24,14 +24,13 @@ export default function Drop(props) {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-  // const [heading]=props
   return (
     <>
       <Card className="card">
       
       <CardActions disableSpacing>
       <Typography>
-        <h3>{props.heading}</h3>
+        <h3 className='card-heading'>{props.heading}</h3>
        </Typography>
         <ExpandMore
           expand={expanded}
