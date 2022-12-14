@@ -3,7 +3,7 @@ import "./DashboardData.css"
 import {useNavigate} from "react-router-dom"
 export default function DashboardData() {
     const navigate=useNavigate()
-    const click=()=>{
+    const product=()=>{
         navigate("/product");
     }
     const marketing=()=>{
@@ -33,7 +33,7 @@ export default function DashboardData() {
                 <div className="grid-container">
                     <div className="item2 i">
                         <h3>product</h3>
-                        <div className="marketing-detail" onClick={marketing}>
+                        <div className="marketing-detail" onClick={product}>
                             <div className='marketing-detail-left' >
                                 <h4>training</h4>
                                 <p>Applicants: <span>22</span></p>
@@ -54,7 +54,7 @@ export default function DashboardData() {
                     </div>
                     <div className="item3 i">
                         <h3>marketing</h3>
-                        <div className="marketing-detail" onClick={click1}>
+                        <div className="marketing-detail" onClick={marketing}>
                             <div className='marketing-detail-left'>
                                 <h4>B2B</h4>
                                 <p>Reach: <span>22</span></p>
